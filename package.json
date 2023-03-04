@@ -1,0 +1,21 @@
+{
+  "name": "sam-custom-theme",
+  "displayName": "sam-custom-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sam Custom Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sam Custom Theme-color-theme.json"
+      }
+    ]
+  }
+}
